@@ -247,7 +247,8 @@
                 "enabledForDeployment": false,
                 "enabledForDiskEncryption": false,
                 "enabledForTemplateDeployment": true,
-                "enableSoftDelete": true
+                "enableSoftDelete": true,
+                "enablePurgeProtection": true
             },
             "resources": [
                 {
