@@ -49,9 +49,9 @@
         },
         "Schedule": {
             "type": "string",
-            "defaultValue": "0 0 1,13 * * *",
+            "defaultValue": "0 5 * * * *",
             "metadata": {
-                "description": "Please enter a valid Quartz cron schedule. The default runs at 1am and 1pm"
+                "description": "Please enter a valid Quartz cron schedule."
             }
         }
     },
@@ -247,7 +247,8 @@
                 "enabledForDeployment": false,
                 "enabledForDiskEncryption": false,
                 "enabledForTemplateDeployment": true,
-                "enableSoftDelete": true
+                "enableSoftDelete": true,
+                "enablePurgeProtection": true
             },
             "resources": [
                 {
